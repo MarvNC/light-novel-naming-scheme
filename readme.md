@@ -58,9 +58,10 @@ For 0.5 volumes:
   used to ensure proper sorting and should start at `x1`, `x2`, etc. regardless
   of the number used in the original title.
   - If it somehow rolls over past `x9`, use `y1`, `y2`, etc.
-- `Title` - The title of the light novel. This should be **untouched from the
-  official spelling**, without omitting Arabic/Roman numerals included in the
-  original title.
+- `Title` - The title of the light novel. This should be **unmodified and copied
+  as-is from an official retail/publisher source**, without omitting
+  Arabic/Roman numerals included in the original title or changing the
+  whitespace used.
   - If there are bonuses included with the volume, these should be left in the
     title if they are included in the release.
     - `【電子特典付き】` (with digital tokuten) should be included if the
