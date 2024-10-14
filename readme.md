@@ -32,7 +32,8 @@ Copied from the manga naming scheme:
 ```
 
 - `[白石定規] v23 - 魔女の旅々２３ (ＧＡノベル)`
-  - **Not** `[白石定規] v23 - 魔女の旅々２３【ドラマＣＤ音源付き】 (ＧＡノベル)`
+  - Not `[白石定規] v23 - 魔女の旅々２３【ドラマＣＤ音源付き】 (ＧＡノベル)`
+    because the drama CD is not included in the volume.
 - `[香月美夜] v01 - 本好きの下剋上～司書になるためには手段を選んでいられません～第一部「兵士の娘I」 (TOブックス)`
 - `[大木戸 いずみ] v07 - 歴史に残る悪女になるぞ ７　悪役令嬢になるほど王子の溺愛は加速するようです！【電子特典付き】 (ビーズログ文庫)`
   - Note that `【電子特典付き】` is included in the title because it is included
