@@ -32,6 +32,12 @@ Copied from the manga naming scheme:
 [Author] v00 - Title (Label)
 ```
 
+For 0.5 volumes:
+
+```
+[Author] v00x1 - Title (Label)
+```
+
 ### Components
 
 - `[Author]` - The author of the light novel. If the release is in Japanese, the
@@ -43,6 +49,10 @@ Copied from the manga naming scheme:
   - The numbers should be regular ANSI numbers and not full-width.
   - If there is only one volume, the volume number is **still required** as
     `v01` because with light novels the publishing status is often unknown.
+- `x1` - Used when a 0.5 volume or otherwise in-between volume exists. This is
+  used to ensure proper sorting and should start at `x1`, `x2`, etc. regardless
+  of the number used in the original title.
+  - If it somehow rolls over past `x9`, use `y1`, `y2`, etc.
 - `Title` - The title of the light novel. This should be **untouched from the
   official spelling**, without omitting Arabic/Roman numerals included in the
   original title.
@@ -67,4 +77,5 @@ Copied from the manga naming scheme:
 
 - `[白石定規] v23 - 魔女の旅々２３ (ＧＡノベル)`
 - `[香月美夜] v01 - 本好きの下剋上～司書になるためには手段を選んでいられません～第一部「兵士の娘I」 (TOブックス)`
-- `[大木戸 いずみ] v07 - 歴史に残る悪女になるぞ ７ 悪役令嬢になるほど王子の溺愛は加速するようです！【電子特典付き】 (ビーズログ文庫)`
+- `[大木戸 いずみ] v07 - 歴史に残る悪女になるぞ ７　悪役令嬢になるほど王子の溺愛は加速するようです！【電子特典付き】 (ビーズログ文庫)`
+- `[屋久ユウキ] v08x1 - 弱キャラ友崎くん　Ｌｖ．８．５ (ガガガ文庫)`
