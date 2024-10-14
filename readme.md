@@ -20,11 +20,6 @@ Copied from the manga naming scheme:
 >   sorting.
 > - No guessing should ever be necessary when naming files.
 > - All filenames should be machine-parseable in a reasonable manner.
-> - One should be able to repack multiple archives together.
-> - One should be able to repack compilation archives back into separate
->   archives.
-> - In other words, repacking should always be a lossless operation
->   information-wise.
 
 **Additional goals:**
 
