@@ -40,6 +40,7 @@ Copied from the manga naming scheme:
 - `v00` - The volume number, padded with zeroes to two digits. As with the manga
   naming scheme, if the volume number goes above 100 then continue with `w100`,
   `w101`, etc.
+  - The numbers should be regular ANSI numbers and not full-width.
   - If there is only one volume, the volume number is **still required** as
     `v01` because with light novels the publishing status is often unknown.
 - `Title` - The title of the light novel. This should be **untouched from the
