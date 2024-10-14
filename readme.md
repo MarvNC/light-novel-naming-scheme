@@ -8,7 +8,6 @@ document is a naming scheme for light novels, with a focus on Japanese releases.
 - [Naming Scheme](#naming-scheme)
   - [Components](#components)
   - [Other](#other)
-- [Examples](#examples)
 
 ## Goals
 
@@ -37,6 +36,11 @@ For 0.5 volumes:
 ```
 [Author] v00x1 - Title (Label)
 ```
+
+- `[白石定規] v23 - 魔女の旅々２３ (ＧＡノベル)`
+- `[香月美夜] v01 - 本好きの下剋上～司書になるためには手段を選んでいられません～第一部「兵士の娘I」 (TOブックス)`
+- `[大木戸 いずみ] v07 - 歴史に残る悪女になるぞ ７　悪役令嬢になるほど王子の溺愛は加速するようです！【電子特典付き】 (ビーズログ文庫)`
+- `[屋久ユウキ] v08x1 - 弱キャラ友崎くん　Ｌｖ．８．５ (ガガガ文庫)`
 
 ### Components
 
@@ -72,10 +76,3 @@ For 0.5 volumes:
 - The spaces used to separate these components should be regular English
   half-width spaces. However, full-width spaces present in the original title
   should be left as is.
-
-## Examples
-
-- `[白石定規] v23 - 魔女の旅々２３ (ＧＡノベル)`
-- `[香月美夜] v01 - 本好きの下剋上～司書になるためには手段を選んでいられません～第一部「兵士の娘I」 (TOブックス)`
-- `[大木戸 いずみ] v07 - 歴史に残る悪女になるぞ ７　悪役令嬢になるほど王子の溺愛は加速するようです！【電子特典付き】 (ビーズログ文庫)`
-- `[屋久ユウキ] v08x1 - 弱キャラ友崎くん　Ｌｖ．８．５ (ガガガ文庫)`
