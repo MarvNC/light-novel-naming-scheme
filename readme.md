@@ -62,6 +62,9 @@ For 0.5 volumes:
   as-is from an official retail/publisher source**, without omitting
   Arabic/Roman numerals included in the original title or changing the
   whitespace used.
+  - The only exception is to remove characters not valid in filenames, such as
+    `?`, `*`, etc. These should not be replaced with other characters when
+    removed.
   - If there are bonuses included with the volume, these should be left in the
     title if they are included in the release.
     - `【電子特典付き】` (with digital tokuten) should be included if the
