@@ -51,7 +51,9 @@ Copied from the manga naming scheme:
       should be released separately.
     - `【ドラマＣＤ音源付き】` (with Drama CD audio) should not be included a
       drama CD will not be included in an `.epub`.
-- `(Label)` - The label that published the light novel release.
+- `(Label)` - The label that published the light novel release. Keep in mind
+  this is not always the same as the publisher. For example, `TOブックス` is a
+  label of Kadokawa, and J-Novel Heart is a label of J-Novel Club.
 
 ### Other
 
