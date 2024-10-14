@@ -1,8 +1,14 @@
-# Light Novel Naming Scheme
+# Light Novel Naming Scheme <!-- omit from toc -->
 
 Inspired by the standard
 [Daiz/manga-naming-scheme](https://github.com/Daiz/manga-naming-scheme), this
 document is a naming scheme for light novels, with a focus on Japanese releases.
+
+- [Goals](#goals)
+- [Naming Scheme](#naming-scheme)
+  - [Components](#components)
+  - [Other](#other)
+- [Examples](#examples)
 
 ## Goals
 
@@ -61,7 +67,7 @@ Copied from the manga naming scheme:
   half-width spaces. However, full-width spaces present in the original title
   should be left as is.
 
-### Examples
+## Examples
 
 - `[白石定規] v23 - 魔女の旅々２３ (ＧＡノベル)`
 - `[香月美夜] v01 - 本好きの下剋上～司書になるためには手段を選んでいられません～第一部「兵士の娘I」 (TOブックス)`
