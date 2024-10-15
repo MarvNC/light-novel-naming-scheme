@@ -8,6 +8,7 @@ document provides a naming scheme for light novel releases.
 - [Naming Scheme](#naming-scheme)
   - [Components](#components)
   - [Other](#other)
+- [Tokuten Title Naming](#tokuten-title-naming)
 - [Folder Naming Scheme](#folder-naming-scheme)
   - [Special Cases](#special-cases)
 
@@ -120,6 +121,25 @@ Copied from the manga naming scheme:
 - The spaces used to separate these components should be regular English
   half-width spaces. However, full-width spaces present in the original title
   should be left as is.
+
+## Tokuten Title Naming
+
+For things like physical tokuten without an official digital presence, there is
+usually a title on the cover that can be used. For example:
+
+- `負けヒロインが多すぎる！５　ＢＯＯＫ☆ＷＡＬＫＥＲ限定特典　描き下ろしショートストーリー`
+
+Please ensure that the title contains these parts if it doesn't already:
+
+- `Series Title`
+- `Volume Number / Goods that the tokuten came with`
+  - For example, `Volume 5`, or `Exclusive Tea Set` if the tokuten came with
+    purchase of a tea set.
+- `Store Name`
+  - The store where the tokuten was obtained.
+- `Type of Tokuten`
+  - The type of tokuten that it is, such as `描き下ろしショートストーリー`
+    (drawn short story).
 
 ## Folder Naming Scheme
 
