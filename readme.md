@@ -78,9 +78,9 @@ Copied from the manga naming scheme:
   - The author of the light novel. If the release is in Japanese, the author's
     name should be in Japanese name order and spelled as originally published.
     In English, the author's name should be in English name order.
-- `yymmdd`
-  - The earliest known release date of the light novel in the format `yymmdd`.
-    For example, `241014` would be October 14, 2024. This is done to ensure
+- `yyyymmdd`
+  - The earliest known release date of the light novel in the format `yyyymmdd`.
+    For example, `20241014` would be October 14, 2024. This is done to ensure
     consistent chronological sorting of releases and to bypass any confusion
     about volume numbers, which should be provided in the official title.
 - `v01`
