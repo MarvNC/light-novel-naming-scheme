@@ -28,8 +28,16 @@ Copied from the manga naming scheme:
 ## Naming Scheme
 
 ```
-[Author] v00 - Title (Publisher-Label(label optional)) [Extra Information] {Revision}
+[Author] v00x1 - Title (Publisher-Label) [Extra Information] {Revision}
 ```
+
+<!-- prettier-ignore -->
+> [!NOTE] 
+> Optional components:
+> - `x1`
+> - `-Label`
+> - `[Extra Information]`
+> - `{Revision}`
 
 - `[白石定規] v23 - 魔女の旅々２３ (SBクリエイティブ-ＧＡノベル)` -
   [Source](https://bookwalker.jp/de7da18c80-136c-4cfc-9a6a-68566ece1a8f/)
@@ -41,11 +49,6 @@ Copied from the manga naming scheme:
   [Source](https://bookwalker.jp/de541ef160-e044-44df-a389-64768d8fb1d2/)
   - Note that `【電子特典付き】` is included in the title because it is included
     in the volume.
-
-```
-[Author] v00x1 - Title (Publisher-Label(label optional)) [Extra Information] {Revision}
-```
-
 - `[屋久ユウキ] v08x1 - 弱キャラ友崎くん　Ｌｖ．８．５ (小学館-ガガガ文庫)` -
   [Source](https://bookwalker.jp/dedbb7209b-836f-42c0-95b8-449e81992bae/)
   - Note that it starts at `x1` and not `x5`.
@@ -82,6 +85,8 @@ Copied from the manga naming scheme:
 - `(Publisher-Label)` - The publisher and label that published the light novel
   release. The label is optional.
 - `[Extra Information]` - Any extra information such as the name of the ripper.
+- `{Revision}` - The revision number of the release. This is optional and should
+  be incremented starting from 2 when a release is updated.
 
 ### Other
 
