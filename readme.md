@@ -31,7 +31,7 @@ Copied from the manga naming scheme:
 ## Naming Scheme
 
 ```
-[Author] YYYYMMDD - v01 Title (Publisher - Label) [Extra Information] {Revision}
+[Author] YYYYMMDD - v01 Title (Publisher - Label) (Retailer) [Extra Information] {Revision}
 ```
 
 <!-- prettier-ignore -->
@@ -39,31 +39,35 @@ Copied from the manga naming scheme:
 > Optional components:
 > - `v01`
 > - ` - Label`
+> - `(Retailer)`
 > - `[Extra Information]`
 > - `{Revision}`
 
-- `[白石定規] 20241013 - 魔女の旅々２３ (SBクリエイティブ - ＧＡノベル)` -
+- `[白石定規] 20241013 - 魔女の旅々２３ (SBクリエイティブ - ＧＡノベル) (Bookwalker)` -
   [Source](https://bookwalker.jp/de7da18c80-136c-4cfc-9a6a-68566ece1a8f/)
   - Not
-    `[白石定規] 20241013 - 魔女の旅々２３【ドラマＣＤ音源付き】 (SBクリエイティブ - ＧＡノベル)`
+    `[白石定規] 20241013 - 魔女の旅々２３【ドラマＣＤ音源付き】 (SBクリエイティブ - ＧＡノベル) (Bookwalker)`
     because the drama CD is not included in the volume.
-- `[香月美夜] 20231209 - v33 本好きの下剋上～司書になるためには手段を選んでいられません～第五部「女神の化身XII」 (TOブックス - TOブックスノベル)` -
+- `[香月美夜] 20231209 - v33 本好きの下剋上～司書になるためには手段を選んでいられません～第五部「女神の化身XII」 (TOブックス - TOブックスノベル) (Bookwalker)` -
   [Source](https://bookwalker.jp/dedc74df88-0644-445b-a652-ae1f60d999db/)
   - The `v33` is optionally included because the title uses Roman numerals and
     parts.
-- `[大木戸 いずみ] 20241015 - 歴史に残る悪女になるぞ ７　悪役令嬢になるほど王子の溺愛は加速するようです！【電子特典付き】 (KADOKAWA - ビーズログ文庫)` -
+- `[大木戸 いずみ] 20241015 - 歴史に残る悪女になるぞ ７　悪役令嬢になるほど王子の溺愛は加速するようです！【電子特典付き】 (KADOKAWA - ビーズログ文庫) (Bookwalker)` -
   [Source](https://bookwalker.jp/de541ef160-e044-44df-a389-64768d8fb1d2/)
   - Note that `【電子特典付き】` is included in the title because it is included
     in the volume.
-- `[屋久ユウキ] 20200417 - 弱キャラ友崎くん　Ｌｖ．８．５ (小学館 - ガガガ文庫)` -
+- `[屋久ユウキ] 20200417 - 弱キャラ友崎くん　Ｌｖ．８．５ (小学館 - ガガガ文庫) (Bookwalker)` -
   [Source](https://bookwalker.jp/dedbb7209b-836f-42c0-95b8-449e81992bae/)
-- `[Natsu Hyuuga] 20241014 - The Apothecary Diaries: Volume 12 (J-Novel Club)` -
+- `[Natsu Hyuuga] 20241014 - The Apothecary Diaries: Volume 12 (J-Novel Club) (J-Novel Club) [Premium]` -
   [Source](https://global.bookwalker.jp/dea3f62d46-0815-450b-b2dc-249da3b961d7/)
-- `[Ｉｎｏｒｉ] 20200924 - I'm in Love with the Villainess Vol. 1 (Seven Seas Entertainment - Airship) {v2}` -
+  - The repeated (J-Novel Club) is included to indicate that the `.epub` file
+    was obtained from J-Novel Club. The `[Premium]` tag is included to indicate
+    that the release is a premium release.
+- `[Ｉｎｏｒｉ] 20200924 - I'm in Love with the Villainess Vol. 1 (Seven Seas Entertainment - Airship) (Kindle) {v2}` -
   [Source](https://global.bookwalker.jp/dec453048a-1a86-41f6-be72-7e938d495fc2/)
   |
   [Source](https://sevenseasentertainment.com/books/im-in-love-with-the-villainess-light-novel-vol-1/)
-- `[Satou Kazuma] 20251212 - Some Light Novel Volume 5 Chapters 1-4 (Fan TL Group)`
+- `[Satou Kazuma] 20251212 - Some Light Novel Volume 5 Chapters 1-4 (Fan TL Group) (Fan TL Group)` -
   - The `Some Generic Light Novel Volume 5 Chapters 1-4` portion can be named at
     the discretion of the release group, since as long as the date is included,
     the release will sort correctly.
@@ -101,6 +105,10 @@ Copied from the manga naming scheme:
 - `(Publisher - Label)`
   - The publisher and label that published the light novel release. The label is
     optional.
+- `(Retailer)`
+  - The retailer where the release was obtained. For **scans of physical books
+    without tokuten**, this is optional. Otherwise it should be included where
+    possible.
 - `[Extra Information]`
   - Any extra information such as the name of the ripper.
 - `{Revision}`
