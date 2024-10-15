@@ -57,12 +57,16 @@ Copied from the manga naming scheme:
   [Source](https://global.bookwalker.jp/dec453048a-1a86-41f6-be72-7e938d495fc2/)
   |
   [Source](https://sevenseasentertainment.com/books/im-in-love-with-the-villainess-light-novel-vol-1/)
+- `[Satou Kazuma] 251212 - Some Light Novel Volume 5 Chapters 1-4 (Random Fan TL Group)`
+  - The `Some Generic Light Novel Volume 5 Chapters 1-4` portion can be named at
+    the discretion of the release group, since as long as the date is included,
+    the release will sort correctly.
 
 ### Components
 
 - `[Author]` - The author of the light novel. If the release is in Japanese, the
   author's name should be in Japanese name order and spelled as originally
-  published.
+  published. In English, the author's name should be in English name order.
 - `yymmdd` - The earliest known release date of the light novel in the format
   `yymmdd`. For example, `241014` would be October 14, 2024. This is done to
   ensure consistent chronological sorting of releases and to bypass any
