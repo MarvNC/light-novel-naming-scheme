@@ -28,22 +28,26 @@ Copied from the manga naming scheme:
 ## Naming Scheme
 
 ```
-[Author] v00 - Title (Label)
+[Author] v00 - Title (Publisher-Label(label optional)) [Extra Information] {Revision}
 ```
 
-- `[白石定規] v23 - 魔女の旅々２３ (ＧＡノベル)`
+- `[白石定規] v23 - 魔女の旅々２３ (SBクリエイティブ-ＧＡノベル)` -
+  [Source](https://bookwalker.jp/de7da18c80-136c-4cfc-9a6a-68566ece1a8f/)
   - Not `[白石定規] v23 - 魔女の旅々２３【ドラマＣＤ音源付き】 (ＧＡノベル)`
     because the drama CD is not included in the volume.
-- `[香月美夜] v01 - 本好きの下剋上～司書になるためには手段を選んでいられません～第一部「兵士の娘I」 (TOブックス)`
-- `[大木戸 いずみ] v07 - 歴史に残る悪女になるぞ ７　悪役令嬢になるほど王子の溺愛は加速するようです！【電子特典付き】 (ビーズログ文庫)`
+- `[香月美夜] v01 - 本好きの下剋上～司書になるためには手段を選んでいられません～第一部「兵士の娘I」 (TOブックス-TOブックスノベル)` -
+  [Source](https://bookwalker.jp/dedc74df88-0644-445b-a652-ae1f60d999db/)
+- `[大木戸 いずみ] v07 - 歴史に残る悪女になるぞ ７　悪役令嬢になるほど王子の溺愛は加速するようです！【電子特典付き】 (KADOKAWA-ビーズログ文庫)` -
+  [Source](https://bookwalker.jp/de541ef160-e044-44df-a389-64768d8fb1d2/)
   - Note that `【電子特典付き】` is included in the title because it is included
     in the volume.
 
 ```
-[Author] v00x1 - Title (Label)
+[Author] v00x1 - Title (Publisher-Label(label optional)) [Extra Information] {Revision}
 ```
 
-- `[屋久ユウキ] v08x1 - 弱キャラ友崎くん　Ｌｖ．８．５ (ガガガ文庫)`
+- `[屋久ユウキ] v08x1 - 弱キャラ友崎くん　Ｌｖ．８．５ (小学館-ガガガ文庫)` -
+  [Source](https://bookwalker.jp/dedbb7209b-836f-42c0-95b8-449e81992bae/)
   - Note that it starts at `x1` and not `x5`.
 
 ### Components
@@ -75,9 +79,9 @@ Copied from the manga naming scheme:
       should be released separately.
     - `【ドラマＣＤ音源付き】` (with Drama CD audio) should not be included a
       drama CD will not be included in an `.epub`.
-- `(Label)` - The label that published the light novel release. Keep in mind
-  this is not always the same as the publisher. For example, `TOブックス` is a
-  label of Kadokawa, and J-Novel Heart is a label of J-Novel Club.
+- `(Publisher-Label)` - The publisher and label that published the light novel
+  release. The label is optional.
+- `[Extra Information]` - Any extra information such as the name of the ripper.
 
 ### Other
 
