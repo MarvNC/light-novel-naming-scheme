@@ -8,6 +8,8 @@ document provides a naming scheme for light novel releases.
 - [Naming Scheme](#naming-scheme)
   - [Components](#components)
   - [Other](#other)
+- [Folder Naming Scheme](#folder-naming-scheme)
+  - [Special Cases](#special-cases)
 
 ## Goals
 
@@ -64,35 +66,69 @@ Copied from the manga naming scheme:
 
 ### Components
 
-- `[Author]` - The author of the light novel. If the release is in Japanese, the
-  author's name should be in Japanese name order and spelled as originally
-  published. In English, the author's name should be in English name order.
-- `yymmdd` - The earliest known release date of the light novel in the format
-  `yymmdd`. For example, `241014` would be October 14, 2024. This is done to
-  ensure consistent chronological sorting of releases and to bypass any
-  confusion about volume numbers, which should be provided in the official
-  title.
-- `Title` - The title of the light novel. This should be **unmodified and copied
-  as-is from an official retail/publisher listing**, without changing the
-  whitespace used or the formatting of volume numbers.
-  - The only exception is to remove characters not valid in file paths, such as
-    `?`, `*`, etc. These should not be replaced with other characters when
-    removed.
-  - If there are bonuses included with the volume, these should be left in the
-    title if they are included in the release.
-    - `【電子特典付き】` (with digital tokuten) should be included if the
-      tokuten is included in the release. If it is a separate `.pdf` file that
-      should be released separately.
-    - `【ドラマＣＤ音源付き】` (with Drama CD audio) should not be included as a
-      drama CD will not be included in an `.epub`.
-- `(Publisher - Label)` - The publisher and label that published the light novel
-  release. The label is optional.
-- `[Extra Information]` - Any extra information such as the name of the ripper.
-- `{Revision}` - The revision number of the release. This is optional and should
-  be incremented starting from 2 when a release is updated.
+- `[Author]`
+  - The author of the light novel. If the release is in Japanese, the author's
+    name should be in Japanese name order and spelled as originally published.
+    In English, the author's name should be in English name order.
+- `yymmdd`
+  - The earliest known release date of the light novel in the format `yymmdd`.
+    For example, `241014` would be October 14, 2024. This is done to ensure
+    consistent chronological sorting of releases and to bypass any confusion
+    about volume numbers, which should be provided in the official title.
+- `Title`
+  - The title of the light novel. This should be **unmodified and copied as-is
+    from an official retail/publisher listing**, without changing the whitespace
+    used or the formatting of volume numbers.
+    - The only exception is to remove characters not valid in file paths, such
+      as `?`, `*`, etc. These should not be replaced with other characters when
+      removed.
+    - If there are bonuses included with the volume, these should be left in the
+      title if they are included in the release.
+      - `【電子特典付き】` (with digital tokuten) should be included if the
+        tokuten is included in the release. If it is a separate `.pdf` file that
+        should be released separately.
+      - `【ドラマＣＤ音源付き】` (with Drama CD audio) should not be included as
+        a drama CD will not be included in an `.epub`.
+- `(Publisher - Label)`
+  - The publisher and label that published the light novel release. The label is
+    optional.
+- `[Extra Information]`
+  - Any extra information such as the name of the ripper.
+- `{Revision}`
+  - The revision number of the release. This is optional and should be
+    incremented starting from 2 when a release is updated.
 
 ### Other
 
 - The spaces used to separate these components should be regular English
   half-width spaces. However, full-width spaces present in the original title
   should be left as is.
+
+## Folder Naming Scheme
+
+```
+[Author] - Title (Publisher - Label)
+```
+
+<!-- prettier-ignore -->
+> [!NOTE] 
+> Optional components:
+> - `(Publisher - Label)`
+
+- `[白石定規] - 魔女の旅々 (SBクリエイティブ - ＧＡノベル)`
+- `[香月美夜] - 本好きの下剋上～司書になるためには手段を選んでいられません～ (TOブックス - TOブックスノベル)`
+- `[Natsu Hyuuga] - The Apothecary Diaries (J-Novel Club)`
+- `[Ｉｎｏｒｉ] - I'm in Love with the Villainess (Seven Seas Entertainment - Airship)`
+
+### Special Cases
+
+- **Multiple Titles within a Series**:
+
+  - If a series has subtitles or multiple arcs that affect the folder
+    organization (e.g., divided into multiple "books" or "parts"), the overall
+    series name can be chosen at your discretion. However, usually retail sites
+    like Bookwalker will provide an overall series name.
+
+- **Multiple Publishers/Labels**:
+  - If there are multiple publishers or release groups for a series, you may
+    remove the publisher/label from the folder name.
