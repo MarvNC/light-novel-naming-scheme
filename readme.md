@@ -73,7 +73,7 @@ Copied from the manga naming scheme:
     - `【電子特典付き】` (with digital tokuten) should be included if the
       tokuten is included in the release. If it is a separate `.pdf` file that
       should be released separately.
-    - `【ドラマＣＤ音源付き】` (with Drama CD audio) should not be included a
+    - `【ドラマＣＤ音源付き】` (with Drama CD audio) should not be included as a
       drama CD will not be included in an `.epub`.
 - `(Publisher-Label)` - The publisher and label that published the light novel
   release. The label is optional.
