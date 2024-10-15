@@ -31,12 +31,13 @@ Copied from the manga naming scheme:
 ## Naming Scheme
 
 ```
-[Author] YYYYMMDD - Title (Publisher - Label) [Extra Information] {Revision}
+[Author] YYYYMMDD - v01 Title (Publisher - Label) [Extra Information] {Revision}
 ```
 
 <!-- prettier-ignore -->
 > [!NOTE] 
 > Optional components:
+> - `v01`
 > - ` - Label`
 > - `[Extra Information]`
 > - `{Revision}`
@@ -46,8 +47,10 @@ Copied from the manga naming scheme:
   - Not
     `[白石定規] 20241013 - 魔女の旅々２３【ドラマＣＤ音源付き】 (SBクリエイティブ - ＧＡノベル)`
     because the drama CD is not included in the volume.
-- `[香月美夜] 20150227 - 本好きの下剋上～司書になるためには手段を選んでいられません～第一部「兵士の娘I」 (TOブックス - TOブックスノベル)` -
+- `[香月美夜] 20231209 - v33 本好きの下剋上～司書になるためには手段を選んでいられません～第五部「女神の化身XII」 (TOブックス - TOブックスノベル)` -
   [Source](https://bookwalker.jp/dedc74df88-0644-445b-a652-ae1f60d999db/)
+  - The `v33` is optionally included because the title uses Roman numerals and
+    parts.
 - `[大木戸 いずみ] 20241015 - 歴史に残る悪女になるぞ ７　悪役令嬢になるほど王子の溺愛は加速するようです！【電子特典付き】 (KADOKAWA - ビーズログ文庫)` -
   [Source](https://bookwalker.jp/de541ef160-e044-44df-a389-64768d8fb1d2/)
   - Note that `【電子特典付き】` is included in the title because it is included
@@ -76,6 +79,11 @@ Copied from the manga naming scheme:
     For example, `241014` would be October 14, 2024. This is done to ensure
     consistent chronological sorting of releases and to bypass any confusion
     about volume numbers, which should be provided in the official title.
+- `v01`
+  - Optionally, a volume number can be included if the title does not already
+    include one. For example, with　`『青春ブタ野郎』シリーズ` (Seishun Buta
+    Yarou Series), each volume has a different title without a volume number, so
+    it can be helpful to have a volume number in the filename.
 - `Title`
   - The title of the light novel. This should be **unmodified and copied as-is
     from an official retail/publisher listing**, without changing the whitespace
