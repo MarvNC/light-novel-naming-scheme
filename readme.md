@@ -63,7 +63,7 @@ Copied from the manga naming scheme:
   [Source](https://global.bookwalker.jp/dec453048a-1a86-41f6-be72-7e938d495fc2/)
   |
   [Source](https://sevenseasentertainment.com/books/im-in-love-with-the-villainess-light-novel-vol-1/)
-- `[Satou Kazuma] 251212 - Some Light Novel Volume 5 Chapters 1-4 (Random Fan TL Group)`
+- `[Satou Kazuma] 20251212 - Some Light Novel Volume 5 Chapters 1-4 (Fan TL Group)`
   - The `Some Generic Light Novel Volume 5 Chapters 1-4` portion can be named at
     the discretion of the release group, since as long as the date is included,
     the release will sort correctly.
