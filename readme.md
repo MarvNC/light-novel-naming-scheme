@@ -51,6 +51,12 @@ Copied from the manga naming scheme:
     in the volume.
 - `[屋久ユウキ] 200417 - 弱キャラ友崎くん　Ｌｖ．８．５ (小学館 - ガガガ文庫)` -
   [Source](https://bookwalker.jp/dedbb7209b-836f-42c0-95b8-449e81992bae/)
+- `[Natsu Hyuuga] 241014 - The Apothecary Diaries: Volume 12 (J-Novel Club)` -
+  [Source](https://global.bookwalker.jp/dea3f62d46-0815-450b-b2dc-249da3b961d7/)
+- `[Ｉｎｏｒｉ] 200924 - I'm in Love with the Villainess Vol. 1 (Seven Seas Entertainment - Airship) {v2}` -
+  [Source](https://global.bookwalker.jp/dec453048a-1a86-41f6-be72-7e938d495fc2/)
+  |
+  [Source](https://sevenseasentertainment.com/books/im-in-love-with-the-villainess-light-novel-vol-1/)
 
 ### Components
 
@@ -64,7 +70,8 @@ Copied from the manga naming scheme:
 - `Title` - The title of the light novel. This should be **unmodified and copied
   as-is from an official retail/publisher source**, without omitting
   Arabic/Roman numerals included in the original title or changing the
-  whitespace used.
+  whitespace used. The volume numbers and their formatting provided by digital
+  storefronts should be kept.
   - The only exception is to remove characters not valid in file paths, such as
     `?`, `*`, etc. These should not be replaced with other characters when
     removed.
