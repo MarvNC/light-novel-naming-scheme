@@ -66,12 +66,11 @@ Copied from the manga naming scheme:
 - `yymmdd` - The earliest known release date of the light novel in the format
   `yymmdd`. For example, `241014` would be October 14, 2024. This is done to
   ensure consistent chronological sorting of releases and to bypass any
-  confusion about volume numbers.
+  confusion about volume numbers, which should be provided in the official
+  title.
 - `Title` - The title of the light novel. This should be **unmodified and copied
-  as-is from an official retail/publisher source**, without omitting
-  Arabic/Roman numerals included in the original title or changing the
-  whitespace used. The volume numbers and their formatting provided by digital
-  storefronts should be kept.
+  as-is from an official retail/publisher listing**, without changing the
+  whitespace used or the formatting of volume numbers.
   - The only exception is to remove characters not valid in file paths, such as
     `?`, `*`, etc. These should not be replaced with other characters when
     removed.
