@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "bun",
+      "script": "prettier --write .",
+      "problemMatcher": [],
+      "label": "bun: prettier:fix",
+      "detail": "bun run prettier --write . - package.json"
+    }
+  ]
+}
