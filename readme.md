@@ -25,9 +25,10 @@ Copied from the manga naming scheme:
 
 **Additional goals:**
 
-- Filenames should respect the original title of the light novel, even when the
-  title/subtitle changes between volumes.
-- Filenames should be easily machine-generated from information easily fetched.
+- Filenames should always respect the original title of the light novel, even
+  when the title/subtitle changes between volumes.
+- Filenames should be easily machine-generated to reduce burden on adoptees of
+  the scheme.
 
 ## Naming Scheme
 
