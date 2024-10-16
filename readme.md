@@ -54,7 +54,7 @@ Copied from the manga naming scheme:
   [Source](https://bookwalker.jp/dedc74df88-0644-445b-a652-ae1f60d999db/)
   - The `v33` is optionally included because the title uses Roman numerals and
     parts.
-- `[大木戸 いずみ] 20241015 - 歴史に残る悪女になるぞ ７　悪役令嬢になるほど王子の溺愛は加速するようです！【電子特典付き】 (KADOKAWA - ビーズログ文庫) (Bookwalker)` -
+- `[大木戸いずみ] 20241015 - 歴史に残る悪女になるぞ ７　悪役令嬢になるほど王子の溺愛は加速するようです！【電子特典付き】 (KADOKAWA - ビーズログ文庫) (Bookwalker)` -
   [Source](https://bookwalker.jp/de541ef160-e044-44df-a389-64768d8fb1d2/)
   - Note that `【電子特典付き】` is included in the title because it is included
     in the volume.
@@ -77,9 +77,11 @@ Copied from the manga naming scheme:
 ### Components
 
 - `[Author]`
-  - The author of the light novel. If the release is in Japanese, the author's
-    name should be in Japanese name order and spelled as originally published.
-    In English, the author's name should be in English name order.
+  - The author of the light novel.
+    - If the release is in Japanese, the author's name should be in Japanese
+      name order with whitespace removed for consistency, as Japanese sources
+      are inconsistent with this.
+    - In English, the author's name should be in English name order.
 - `yyyymmdd`
   - The earliest known release date of the light novel in the format `yyyymmdd`.
     For example, `20241014` would be October 14, 2024. This is done to ensure
